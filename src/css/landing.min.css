@@ -1,0 +1,17 @@
+ .cover-container {
+     max-width: 42em;
+ }
+
+ .cover-heading {
+     font-size: 3rem;
+     font-weight: 700;
+ }
+
+ .lead {
+     font-size: 1.5rem;
+ }
+
+ .btn-lg {
+     padding: 0.75rem 2rem;
+     font-size: 1.25rem;
+ }

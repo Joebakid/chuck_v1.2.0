@@ -1,8 +1,30 @@
 import React from "react";
+import Landing from "../components/Landing";
+import WhyChuck from "../components/whyChuck";
+import Uniswap from "../components/Uniswap";
+import Community from "../components/Community"
+import "../css/home.min.css"
 export default function Home() {
     return (
         <>
-            <h1>Home here</h1>
+            <Landing />
+            <WhyChuck />
+            <Uniswap />
+            <Community />
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </>
     )
 }
