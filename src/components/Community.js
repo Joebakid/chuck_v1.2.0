@@ -1,10 +1,16 @@
 import React from "react";
+import TwitterTimeline from "./Twitter";
+import "../css/community.min.css"
 export default function Community() {
     return (
         <><div class="container-fluid px-5 my-5">
             <div class="row">
-                <div class="col h-100">
-                    <img src="http://via.placeholder.com/700x700" alt="uniswap enbedd" />
+                <div class="col shadow-lg">
+                    <div class="scrollable-column">
+                        <div>
+                            <TwitterTimeline screenName={"Chuck_on_base"} />
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <h1>Welcome to our vibrant
