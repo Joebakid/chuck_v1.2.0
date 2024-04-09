@@ -10,6 +10,7 @@ import HowToBuy from "../pages/HowToBuy"
 import WhitePaper from "../pages/WhitePaper"
 import Chart from "../pages/Chart"
 import Tokenomics from "../pages/Tokenomics"
+import "../css/home.min.css"
 export default function Router() {
     const Layout = () => {
         return (
@@ -17,6 +18,20 @@ export default function Router() {
                 <Header />
                 <Outlet />
                 <Footer />
+                <div class="area">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </>
         )
     }

@@ -36,6 +36,28 @@ export default function RoadMap() {
                             </ul>
                         </div>
                     </div>
+                    <div class="vessel left-vessel">
+                        <div class="textBox">
+                            <h3>Community Advancement</h3>
+                            <h5 class="small">Q4 2024</h5>
+                            <ul>
+                                <li>Website Upgrade</li>
+                                <li>NFT Mint and Launch</li>
+                                <li>Community Game Creation</li>
+                                <li>Cross Community Partnership</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="vessel right-vessel">
+                        <div class="textBox">
+                            <h3>Continued Development</h3>
+                            <h5 class="small">Q1 2025</h5>
+                            <ul>
+                                <li>NFT Development</li>
+                                <li>Community Game Development</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div></>
     )

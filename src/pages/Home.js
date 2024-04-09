@@ -9,22 +9,8 @@ export default function Home() {
         <>
             <Landing />
             <WhyChuck />
-            <Uniswap />
+            {/* <Uniswap /> */}
             <Community />
-            <div class="area">
-                <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
         </>
     )
 }

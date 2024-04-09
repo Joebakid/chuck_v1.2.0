@@ -1,4 +1,14 @@
+:root {
+    --navLinkSize: 1.5rem;
+    --headerLevelOne: 2rem
+}
+
 .navBar {
     background-color: #FFDD8B;
     min-height: 3.5em;
+}
+
+.navBar .nav-link {
+    color: #0F0D53;
+    font-size: var(--navLinkSize);
 }

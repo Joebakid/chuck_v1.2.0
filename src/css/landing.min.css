@@ -1,17 +1,21 @@
- .cover-container {
-     max-width: 42em;
- }
+:root {
+    --navLinkSize: 1.5rem;
+    --headerLevelOne: 2rem;
+    --headerLevelOneWeight: 900;
+}
 
- .cover-heading {
-     font-size: 3rem;
-     font-weight: 700;
- }
+.cover-container {
+    max-width: 42em;
+}
 
- .lead {
-     font-size: 1.5rem;
- }
+.cover-heading {
+    font-size: calc((var(--headerLevelOne)*1.5));
+    line-height: calc((var(--headerLevelOne)*1.25));
+    font-weight: var(--headerLevelOneWeight)
+}
 
- .btn-lg {
-     padding: 0.75rem 2rem;
-     font-size: 1.25rem;
- }
+.btn-lg {
+    padding: 1rem 4rem;
+    font-size: calc(var(--navLinkSize)*1.2);
+    font-weight: 700;
+}

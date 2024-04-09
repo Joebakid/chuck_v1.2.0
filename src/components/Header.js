@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import brand from "../images/chuck-brand.png"
+import "../css/navbar.min.css"
 export default function Header() {
     return (
         <>
             <nav class="navbar navbar-expand-lg px-5 navBar sticky-top mb-5 shadow-lg">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/" id="brand">
-                        <img src="../../public/images/chuck-brand.png" alt="chuck" width="55" height="55" />
+                        <img src={brand} alt="chuck" width="55" height="55" />
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

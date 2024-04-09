@@ -1,13 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@font-face {
+    font-family: 'windows_command_prompt';
+    /* Replace 'YourFontName' with the desired font name */
+    src: url('../Font/windows_command_prompt.woff2') format('woff2'),
+        /* Path to your font file */
+        url('../Font/windows_command_prompt.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'upheavtt';
+    /* Replace 'YourFontName' with the desired font name */
+    src: url('../Font/upheavtt.ttf') format('ttf')
+}
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
+html,
 body {
-    font-family: 'Exo', sans-serif;
+    font-family: 'windows_command_prompt', sans-serif;
+    /* Use the font-family you specified */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+a {
+    font-family: 'windows_command_prompt', "upheavtt", sans-serif;
     color: #fff;
+    text-decoration: none;
+}
+
+#landing,
+#whyChuck,
+#community,
+#uniswap {
+    min-height: 100vh;
 }
 
 .area {
